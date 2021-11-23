@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a17111d927.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <input type="text" name="" id="input">
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="clearResult()" class="shift">c</button></td>
+                <td><button onclick="del()" class="shif"><i class="fas fa-backspace"></i></button></td>
+                <td><button onclick="compute('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="compute('7')">7</button></td> <!--I made changes here to cimfirm if it will work and it did-->
+                <td><button onclick="compute('8')">8</button></td>
+                <td><button onclick="compute('9')">9</button></td>
+                <td><button onclick="compute('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="compute('4')">4</button></td>
+                <td><button onclick="compute('5')">5</button></td>
+                <td><button onclick="compute('6')">6</button></td>
+                <td><button onclick="compute('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="compute('1')">1</button></td>
+                <td><button onclick="compute('2')">2</button></td> <!--I made changes here to cimfirm if it will work and it did-->
+                <td><button onclick="compute('3')">3</button></td>
+                <td><button onclick="compute('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="compute('0')">0</button></td>
+                <td><button onclick="compute('.')">.</button></td>
+                <td><button onclick="result()">=</button></td>
+                <td><button onclick="compute('%')">%</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+        
+
